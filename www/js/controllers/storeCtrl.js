@@ -3,7 +3,7 @@
  */
 angular.module('starter.controllers')
 
-    .controller('storeCtrl', function($scope, $http, $stateParams,CartData,StoreData,$ionicLoading,$ionicSlideBoxDelegate,$location) {
+    .controller('storeCtrl', function($scope, $http, $stateParams,CartData,StoreData,$ionicLoading,$ionicSlideBoxDelegate,$location,$ionicFilterBar) {
       $scope.storelistId = ($stateParams.storelistId);
       $scope.storeId = ($stateParams.storeId);
       $scope.cartItems = CartData.getCart();
@@ -182,6 +182,26 @@ angular.module('starter.controllers')
       $scope.getProducts = function(productCategory,pageNumber) {
         return $http.get('http://getmeher.com:3000/'+productCategory+'/'+'page'+'/'+pageNumber)
       };
-
+        var filterBarInstance;
+        $scope.showFilterBar = function () {
+            filterBarInstance = $ionicFilterBar.show({
+                items: $scope.productCatalog[$ionicSlideBoxDelegate.selected()].products,
+                update: function (filteredItems, filterText) {
+                    console.log("%%%%%%%%%")
+                    console.log($scope.productCatalog[$ionicSlideBoxDelegate.selected()].products)
+                    $scope.productCatalog[$ionicSlideBoxDelegate.selected()].products = "";
+                    if (filterText) {
+                        if (filterText.length > 2) {
+                            console.log(filterText);
+                            $http.get('http://getmeher.com:3000/'+'groceries'+'/'+'search'+'/'+filterText)
+                                .then(function successCallback(response) {
+                                    $scope.productCatalog[$ionicSlideBoxDelegate.selected()].products = response.data;
+                                }, function errorCallback(response) {
+                                });
+                        }
+                    }
+                }
+            });
+        };
 
     });

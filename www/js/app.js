@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','ngCordova','greatCircles','ion-google-place'])
+var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','ngCordova','greatCircles','ion-google-place','ti-segmented-control','jett.ionic.filter.bar'])
 
     .run(function($ionicPlatform,$state) {
       $ionicPlatform.ready(function() {
@@ -39,9 +39,18 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
             templateUrl: 'templates/menu.html',
             controller: 'AppCtrl'
           })
+          .state('app.pastorder', {
+            url: '/pastorder',
+            views: {
+              'menuContent': {
+                templateUrl: 'templates/pastorder.html',
+                controller: 'pastOrderCtrl'
+              }
+            }
+          })
 
           .state('app.postorder', {
-            url: '/postorder',
+            url: '/postorder/:orderId',
             views: {
               'menuContent': {
                 templateUrl: 'templates/post-order.html',
@@ -49,6 +58,7 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
               }
             }
           })
+
           .state('app.contact', {
             url: '/contact',
             views: {
