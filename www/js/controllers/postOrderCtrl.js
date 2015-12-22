@@ -5,8 +5,8 @@ angular.module('starter.controllers')
         $scope.orderId=$stateParams.orderId;
 
         $scope.feedbackData={
-            "timelyDeliver":true,
-            "quality":true,
+            "timelyDeliver":0,
+            "quality":1,
             "rating":3
         }
 
@@ -40,15 +40,15 @@ angular.module('starter.controllers')
 
         $scope.sendFeedback = function() {
             console.log($scope.feedbackData)
-            $http.put('http://getmeher.com:3000/orders/'+$scope.orderId,{ "feedback":$scope.feedbackData})
-           //feedbackData $http({
-           //     method: 'PUT',
-           //     url: 'http://getmeher.com:3000/orders/'+$scope.orderId,
-           //     //headers: {
-           //     //    'Content-Type': 'application/json'
-           //     //},
-           //     data:{feedback:$scope.feedbackData}
-           // })
+
+            $http({
+                method: 'PUT',
+                url: 'http://getmeher.com:3000/orders/'+$scope.orderId,
+                //headers: {
+                //    'Content-Type': 'application/json'
+                //},
+                data:{feedback:$scope.feedbackData}
+            })
                 .then(function successCallback(response) {
                 console.log(response);
                 // this callback will be called asynchronously
@@ -56,7 +56,7 @@ angular.module('starter.controllers')
             }, function errorCallback(response) {
                 // called asynchronously if an error occurs
                 // or server return s response with an error status.
-            });
+
             console.log($scope.feedbackData);
             $scope.makePopup();
 
@@ -110,6 +110,24 @@ angular.module('starter.controllers')
         $scope.CallTel = function(tel) {
             window.open('tel:'+'+91'+tel)
             //window.location.href = 'tel:'+ tel;
+        }
+
+
+        $scope.timelyDeliveryButton = function(index){
+            debugger
+
+            $scope.onTime=index;
+            console.log($scope.onTime);
+            $scope.$apply();
+            $scope.feedbackData.timelyDeliver = $scope.onTime;
+        }
+        $scope.productQualityButton = function(index){
+            debugger
+
+            $scope.productQuality = index;
+            console.log($scope.productQuality);
+            $scope.$apply();
+            $scope.feedbackData.quality = $scope.productQuality;
         }
 
     });

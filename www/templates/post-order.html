@@ -80,9 +80,9 @@
               <span class="input-label">Timely Delivery?</span>
             </div>
             <div class="col">
-              <ti-segmented-control on-select="buttonClicked($index)">
-                <ti-segmented-control-button class="button-balanced" title="'On Time'" selected></ti-segmented-control-button>
-                <ti-segmented-control-button class="button-assertive" title="'Late'"></ti-segmented-control-button>
+              <ti-segmented-control on-select="timelyDeliveryButton($index)">
+                <ti-segmented-control-button class="button-positive" title="'Late'"></ti-segmented-control-button>
+                <ti-segmented-control-button class="button-positive" title="'On Time'" selected></ti-segmented-control-button>
               </ti-segmented-control>
             </div>
           </div>
@@ -100,13 +100,13 @@
           <!--</input>-->
           <div class="row item">
             <div>
-              <span class="input-label">Product Quality</span>
+              <span class="input-label" ng-model="productQuality">Product Quality</span>
             </div>
             <div class="col col-70">
-              <ti-segmented-control on-select="buttonClicked($index)">
-                <ti-segmented-control-button class="button-assertive" title="'Bad'"></ti-segmented-control-button>
-                <ti-segmented-control-button class="button-energized" title="'Good'" selected></ti-segmented-control-button>
-                <ti-segmented-control-button class="button-balanced" title="'Great'"></ti-segmented-control-button>
+              <ti-segmented-control on-select="productQualityButton($index)">
+                <ti-segmented-control-button class="button-positive" title="'Bad'"></ti-segmented-control-button>
+                <ti-segmented-control-button class="button-positive" title="'Good'" selected></ti-segmented-control-button>
+                <ti-segmented-control-button class="button-positive" title="'Great'"></ti-segmented-control-button>
               </ti-segmented-control>
             </div>
           </div>
@@ -124,7 +124,7 @@
             <div class=" range range-positive" >
               <i class="icon ion-thumbsdown" style="color: #AAA"></i>
               <input type="range" min="0" max="5" step="1" ng-model="feedbackData.rating">
-              <i class="icon ion-thumbsup energized"></i>
+              <i class="icon ion-thumbsup positive"></i>
             </div>
           </label>
 
