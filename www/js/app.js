@@ -5,7 +5,10 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','ngCordova','greatCircles','ion-google-place','ti-segmented-control','jett.ionic.filter.bar'])
+var db = null;
+var MeherUser ={};
+var MeherMobile = null;
+var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','ngCordova','greatCircles','ion-google-place','ti-segmented-control','jett.ionic.filter.bar','ionic-pullup'])
 
     .run(function($ionicPlatform,$state) {
       $ionicPlatform.ready(function() {
@@ -25,12 +28,21 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
           }
 
         }, false);
+        db = $cordovaSQLite.openDB("meheruserc.db");
+        $cordovaSQLite.execute(db, "CREATE TABLE IF NOT EXISTS Meher_user (deviceId text, mobile integer,addLine1 text,addLine2 text)");
       });
     })
 
 
-    .config(function($stateProvider, $urlRouterProvider,$ionicConfigProvider) {
+    .config(function($stateProvider, $urlRouterProvider,$ionicConfigProvider,$ionicFilterBarConfigProvider) {
       $ionicConfigProvider.views.forwardCache(true);
+      $ionicFilterBarConfigProvider.theme('stable');
+      $ionicFilterBarConfigProvider.clear('ion-close');
+      $ionicFilterBarConfigProvider.search('ion-search');
+      $ionicFilterBarConfigProvider.backdrop(false);
+      $ionicFilterBarConfigProvider.transition('vertical');
+      $ionicFilterBarConfigProvider.placeholder('Search Products');
+
       $stateProvider
 
           .state('app', {
@@ -161,7 +173,7 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
       //});
 
       // if none of the above states are matched, use this as the fallback
-      $urlRouterProvider.otherwise('/app/postorder/');
+      $urlRouterProvider.otherwise('/app/categories');
       //$urlRouterProvider.otherwise('/app/login');
     });
 

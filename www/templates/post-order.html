@@ -1,7 +1,7 @@
 <ion-view view-title="Order Status">
   <ion-content>
     <div class="row item item-divider">
-      <span class="col text-center">Order Status  </span>
+      <span class="col text-center">Order Id : {{order._id}}</span>
     </div>
     <!-- <div class="row" id="order-header">
        <div class="col text-center">
@@ -13,17 +13,17 @@
       <div class="col">
         <ul class="four steps">
           <li class="complete">
-            <a href="#0"><i class="ion-ios-compose" style="margin-left: 2px;"></i></a>
+            <a ><i class="ion-ios-compose" style="margin-left: 2px;"></i></a>
           </li>
-          <li class="complete">
-            <a href="#0"><i class="ion-clipboard"></i></a>
-            <!--<li class="complete"><a href="#0">2</a>-->
+          <li ng-class="{complete:(order.orderStatus== 'accepted') || (order.orderStatus== 'ontheway') ||(order.orderStatus== 'delivered')}"  >
+            <a ><i class="ion-clipboard"></i></a>
+            <!--<li class="complete"><a >2</a>-->
           </li>
-          <li>
-            <a href="#0"><i class="ion-android-bicycle"></i></a>
+          <li ng-class="{complete:(order.orderStatus== 'ontheway') ||(order.orderStatus== 'delivered')}">
+            <a ><i class="ion-android-bicycle"></i></a>
           </li>
-          <li>
-            <a href="#0"><i class="ion-bag"></i></a>
+          <li ng-class="{complete:order.orderStatus== 'delivered'}">
+            <a ><i class="ion-bag"></i></a>
           </li>
         </ul>
       </div>
@@ -40,7 +40,7 @@
       <div class="row item">
         <div class="col">
 
-          <button ng-click="CallTel({{StoreSelected.mobile}})" class="button icon-right button-block ion-ios-telephone button-balanced">Call Store</button>
+          <button ng-click="CallTel()" class="button icon-right button-block ion-ios-telephone button-balanced">Call Store</button>
         </div>
       </div>
 
@@ -69,7 +69,7 @@
           <!--<span class="input-label">Delivered in Time <b>{{selectedIndex}}</b></span>-->
           <!--<span class="input-label" ng-show="gogo">Yes</span> -->
           <!--<label class="toggle toggle-balanced">-->
-          <!--<input type="checkbox" ng-model="feedbackData.timelyDeliver" ng-change="changeDeliveryTime(feedbackData.timelyDeliver)">-->
+          <!--<input type="checkbox" ng-model="order.feedback.timelyDeliver" ng-change="changeDeliveryTime(order.feedback.timelyDeliver)">-->
           <!--<div class="track">-->
           <!--<div class="handle"></div>-->
           <!--</div>-->
@@ -80,9 +80,9 @@
               <span class="input-label">Timely Delivery?</span>
             </div>
             <div class="col">
-              <ti-segmented-control on-select="timelyDeliveryButton($index)">
-                <ti-segmented-control-button class="button-positive" title="'Late'"></ti-segmented-control-button>
-                <ti-segmented-control-button class="button-positive" title="'On Time'" selected></ti-segmented-control-button>
+              <ti-segmented-control on-select="timelyDeliveryButton($index)" >
+                <ti-segmented-control-button class="button-positive" title="'Late'" ng-class="{active : order.feedback.ontime == 0}"></ti-segmented-control-button>
+                <ti-segmented-control-button class="button-positive" title="'On Time'" ng-class="{active : order.feedback.ontime == 1}"></ti-segmented-control-button>
               </ti-segmented-control>
             </div>
           </div>
@@ -92,7 +92,7 @@
           <!--<span class="input-label">Product Quality {{selectedIndex}}</span>-->
           <!--<span class="input-label" ng-show="gogo">Yes</span> -->
           <!--<label class="toggle toggle-balanced">-->
-          <!--<input type="checkbox" ng-model="feedbackData.quality" ng-change="changeProductQuality(feedbackData.quality)">-->
+          <!--<input type="checkbox" ng-model="order.feedback.quality" ng-change="changeProductQuality(order.feedback.quality)">-->
           <!--<div class="track">-->
           <!--<div class="handle"></div>-->
           <!--</div>-->
@@ -103,10 +103,10 @@
               <span class="input-label" ng-model="productQuality">Product Quality</span>
             </div>
             <div class="col col-70">
-              <ti-segmented-control on-select="productQualityButton($index)">
-                <ti-segmented-control-button class="button-positive" title="'Bad'"></ti-segmented-control-button>
-                <ti-segmented-control-button class="button-positive" title="'Good'" selected></ti-segmented-control-button>
-                <ti-segmented-control-button class="button-positive" title="'Great'"></ti-segmented-control-button>
+              <ti-segmented-control on-select="productQualityButton($index)" >
+                <ti-segmented-control-button class="button-positive" title="'Bad'" ng-class="{active : order.feedback.quality == 0}"></ti-segmented-control-button>
+                <ti-segmented-control-button class="button-positive" title="'Good'" ng-class="{active : order.feedback.quality == 1}"></ti-segmented-control-button>
+                <ti-segmented-control-button class="button-positive" title="'Great'" ng-class="{active : order.feedback.quality == 2}"></ti-segmented-control-button>
               </ti-segmented-control>
             </div>
           </div>
@@ -115,7 +115,7 @@
           <label class="item item-input item-stacked-label">
             <span class="input-label">Rate store</span>
 
-            <span style="float: right;padding-right: 30px;"><b>{{feedbackData.rating}} Star</b>
+            <span style="float: right;padding-right: 30px;"><b>{{order.feedback.rating}} Star</b>
               <!--<span id="count">-->
               <!--<i class="icon ion-star"></i>-->
               <!--</span>-->
@@ -123,7 +123,7 @@
 
             <div class=" range range-positive" >
               <i class="icon ion-thumbsdown" style="color: #AAA"></i>
-              <input type="range" min="0" max="5" step="1" ng-model="feedbackData.rating">
+              <input type="range" min="0" max="5" step="1" ng-model="order.feedback.rating">
               <i class="icon ion-thumbsup positive"></i>
             </div>
           </label>

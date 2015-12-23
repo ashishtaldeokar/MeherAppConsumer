@@ -32,16 +32,17 @@
     <script src="lib/ngSticky/dist/sticky.min.js"></script>
     <script src="lib/ti-segmented-control/dist/ti-segmented-control.js"></script>
       <script src="lib/ionic-filter-bar/dist/ionic.filter.bar.js"></script>
+    <script src="lib/ionic-pullup/dist/ion-pullup.js"></script>
 
 
-      <!-- your app's js -->
+
+    <!-- your app's js -->
     <script src="js/app.js"></script>
     <script src="js/controllers.js"></script>
     <script src="js/controllers/loginCtrl.js"></script>
     <script src="js/controllers/contactCtrl.js"></script>
     <script src="js/controllers/otpCtrl.js"></script>
     <script src="js/controllers/pastOrder.js"></script>
-    <script src="js/controllers/orderDetail.js.js"></script>
 
     <script src="js/controllers/storeCtrl.js"></script>
     <script src="js/controllers/orderCtrl.js"></script>
@@ -75,24 +76,76 @@
   <body ng-app="starter" ng-controller="LoadCtrl">
   <ion-nav-view></ion-nav-view>
 
-  <ion-footer-bar align-title="left" class="bar-light" ng-if="cartList.length > 0">
-    <div class="buttons">
-      <a class="button icon ion-ios-cart-outline" href="#/app/order">
-        <span id="cart-badge" class="badge badge-assertive">{{cartList.length}}</span>
-      </a>
+  <!--<ion-footer-bar align-title="left" class="bar-light" ng-if="cartList.length > 0">-->
+    <!--<div class="buttons">-->
+      <!--<a class="button icon ion-ios-cart-outline" href="#/app/order">-->
+        <!--<span id="cart-badge" class="badge badge-assertive">{{cartList.length}}</span>-->
+      <!--</a>-->
+    <!--</div>-->
+    <!--<span class="title price" ng-if="currentPath  !== '/app/order'">-->
+    <!--<b>{{cartList[cartList.length-1].name | limitTo:10}}</b>-->
+    <!--<span style="color: #aaa;font-size: 12px;-->
+<!--"><i>just added</i></span>-->
+    <!--</span>    &lt;!&ndash;<h1 class="title price" >{{grandTotal}}</h1>&ndash;&gt;-->
+    <!--<div class="buttons">-->
+      <!--<a class="button icon-right ion-arrow-right-c button-positive" href="#/app/order" ng-if="currentPath  !== '/app/order'">Order Now</a>-->
+    <!--</div>-->
+    <!--<div class="buttons pull-right">-->
+      <!--<button class="button icon-right ion-arrow-right-c button-balanced" ng-click="composeSMS()" ng-if="currentPath  === '/app/order'">Place Order</button>-->
+    <!--</div>-->
+  <!--</ion-footer-bar>-->
+
+  <ion-pull-up-footer class=" bar-stable" on-expand="footerExpand()" on-collapse="footerCollapse()"  ng-if="cartList.length > 0">
+    <ion-pull-up-handle width="100" height="25" toggle="ion-chevron-down ion-chevron-up" style="border-radius: 25px 25px 0 0; border-top: solid 1px #888">
+      <i class="icon ion-chevron-up"></i>
+    </ion-pull-up-handle>
+    <ion-pull-up-bar>
+    <div class="buttons" style="padding: 5px;">
+    <a class="button icon ion-ios-cart-outline" href="#/app/order">
+    <span id="cart-badge" class="badge badge-assertive">{{cartList.length}}</span>
+    </a>
     </div>
-    <span class="title price" ng-if="currentPath  !== '/app/order'">
-    <b>{{cartList[cartList.length-1].name | limitTo:10}}</b>
-    <span style="color: #aaa;font-size: 12px;
-"><i>just added</i></span>
-    </span>    <!--<h1 class="title price" >{{grandTotal}}</h1>-->
+    <h1 class="title" ion-pull-up-trigger>Tap here</h1>
     <div class="buttons">
-      <a class="button icon-right ion-arrow-right-c button-positive" href="#/app/order" ng-if="currentPath  !== '/app/order'">Order Now</a>
+    <a class="button icon-right ion-arrow-right-c button-positive" href="#/app/order" ng-if="currentPath  !== '/app/order'">Order Now</a>
     </div>
     <div class="buttons pull-right">
-      <button class="button icon-right ion-arrow-right-c button-balanced" ng-click="composeSMS()" ng-if="currentPath  === '/app/order'">Place Order</button>
+    <button class="button icon-right ion-arrow-right-c button-balanced" ng-click="composeSMS()" ng-if="currentPath  === '/app/order'">Place Order</button>
     </div>
-  </ion-footer-bar>
+    </ion-pull-up-bar>
+    <ion-pull-up-content scroll="false">
+      <div class="list card">
+        <div class="item item-divider">Current Order</div>
+        <div class="item item-body">
+          <div class="row" ng-repeat="cartItem in cartList">
+            <div class="col col-40">
+              <span>{{cartItem.name}}</span>
+            </div>
+            <div class="col col-40">
+              <a class="item item-icon-left item-icon-right" href="#">
+                <i class="icon positive ion-ios-minus-outline" ng-click="decreaseQuantity(cartItem)"></i>
+                {{cartItem.quantity}}
+                <i class="icon positive ion-ios-plus-outline" ng-click="increaseQuantity(cartItem)"></i>
+              </a>
+            </div>
+            <div class="col col-20">{{cartItem.price}}</div>
+          </div>
+
+          <div class="row" id="order-header">
+            <div class="col">
+              <span class="price-text">*Estimate price undisclosed to store</span>
+            </div>
+            <div class="col col-30 text-right">
+              <b>Total:</b> {{cartTotal | number:0}}
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </ion-pull-up-content>
+  </ion-pull-up-footer>
+
+
 
   </body>
 

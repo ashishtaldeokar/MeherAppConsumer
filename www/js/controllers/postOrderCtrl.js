@@ -1,17 +1,34 @@
 angular.module('starter.controllers')
 
     .controller('postOrderCtrl', function($scope, $http, $stateParams,CartData,StoreData, $ionicPopup) {
-        $scope.order= JSON.parse(window.localStorage['orderPost'] || '{}');
+        //$scope.order= JSON.parse(window.localStorage['orderPost'] || '{}');
         $scope.orderId=$stateParams.orderId;
+        $scope.order={};
+        $http({
+            method: 'GET',
+            url: 'http://getmeher.com:3000/orders/' + $scope.orderId
+        }).then(function successCallback(response) {
 
-        $scope.feedbackData={
-            "timelyDeliver":0,
-            "quality":1,
-            "rating":3
+            $scope.order = response.data;
+            console.log($scope.status);
+            $scope.setResopnse();
+
+        }, function errorCallback(response) {
+            console.log(response);
+            $scope.setResopnse();
+        });
+
+        $scope.setResopnse = function (){
+            if(!$scope.order.feedback){
+                $scope.order.feedback={
+                    "onTime":0,
+                    "quality":1,
+                    "rating":3
+                }
+
+            }
         }
-
-        $scope.timelyDeliverStatus="Yes";
-        $scope.productQualityStatus="Awesome";
+        
 
         $scope.commentData=function(){
             $scope.order.feedback = $scope.feedbackData;
@@ -37,32 +54,7 @@ angular.module('starter.controllers')
                 }
             });
         };
-
-        $scope.sendFeedback = function() {
-            console.log($scope.feedbackData)
-
-            $http({
-                method: 'PUT',
-                url: 'http://getmeher.com:3000/orders/'+$scope.orderId,
-                //headers: {
-                //    'Content-Type': 'application/json'
-                //},
-                data:{feedback:$scope.feedbackData}
-            })
-                .then(function successCallback(response) {
-                console.log(response);
-                // this callback will be called asynchronously
-                // when the response is available
-            }, function errorCallback(response) {
-                // called asynchronously if an error occurs
-                // or server return s response with an error status.
-
-            console.log($scope.feedbackData);
-            $scope.makePopup();
-
-        };
-
-            $scope.makePopup = function() {
+        $scope.makePopup = function() {
             var promptPopup=$ionicPopup.confirm({
                 title: 'Comment',
                 template: 'Your feedback is sent',
@@ -79,26 +71,35 @@ angular.module('starter.controllers')
             });
         };
 
-        $scope.changeDeliveryTime=function(u){
 
-            if(u==true)
-            {
-                $scope.timelyDeliverStatus="Yes";
-            }
-            else{
-                $scope.timelyDeliverStatus="No";
-            }
+        // Get Order status
+
+
+
+
+
+        $scope.sendFeedback = function() {
+            console.log($scope.feedbackData)
+
+            $http({
+                method: 'PUT',
+                url: 'http://getmeher.com:3000/orders/' + $scope.orderId,
+                data: {feedback: $scope.feedbackData}
+
+            }).then(function successCallback(response) {
+                console.log(response);
+                $scope.makePopup();
+                // this callback will be called asynchronously
+                // when the response is available
+            }, function errorCallback(response) {
+                console.log(response);
+                // called asynchronously if an error occurs
+                // or server returns response with an error status.
+            });
+
         };
 
-        $scope.changeProductQuality=function(a){
-            if(a==true)
-            {
-                $scope.productQualityStatus="Awesome";
-            }
-            else{
-                $scope.productQualityStatus="Average";
-            }
-        }
+
 
         $scope.buttonClicked = function(index){
             $scope.selectedIndex = index;
@@ -107,22 +108,22 @@ angular.module('starter.controllers')
 
         $scope.cartItems = CartData.getCart();
         $scope.StoreSelected = StoreData.getStore();
-        $scope.CallTel = function(tel) {
-            window.open('tel:'+'+91'+tel)
+        $scope.CallTel = function() {
+            window.open('tel:'+'+91'+$scope.order.store.mobile)
             //window.location.href = 'tel:'+ tel;
         }
 
 
         $scope.timelyDeliveryButton = function(index){
-            debugger
+
 
             $scope.onTime=index;
             console.log($scope.onTime);
             $scope.$apply();
-            $scope.feedbackData.timelyDeliver = $scope.onTime;
+            $scope.feedbackData.onTime = $scope.onTime;
         }
         $scope.productQualityButton = function(index){
-            debugger
+
 
             $scope.productQuality = index;
             console.log($scope.productQuality);
