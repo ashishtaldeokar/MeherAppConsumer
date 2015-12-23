@@ -41,17 +41,36 @@ angular.module('starter.controllers')
 
         $scope.practice=function(productItem){
             $scope.currentObj =productItem ;
+            var untickDone = false;
             console.log( '************');
             console.log( $scope.currentObj);
             var existingItems = $scope.productCatalog[$ionicSlideBoxDelegate.selected()].products;
             var i;
             for (i = 0; i < existingItems.length; i++) {
-                if ($scope.currentObj.$$hashKey == existingItems[i].$$hashKey) {
+                if ($scope.currentObj.name == existingItems[i].name) {
                     alert("matched")
-                    console.log($scope.currentObj)
+                    console.log($scope.currentObj);
                     $scope.productCatalog[$ionicSlideBoxDelegate.selected()].products[i].ordernow = false;
+                    untickDone = true;
                     break;
                 }
+            }
+
+            if(!untickDone) {
+                var j;
+                for (j = 0; j < $scope.productCatalog.length; j++) {
+                    var existingItems = $scope.productCatalog[j].products;
+                    var i;
+                    for (i = 0; i < existingItems.length; i++) {
+                        if ($scope.currentObj.name == existingItems[i].name) {
+                            alert("matched")
+                            console.log($scope.currentObj)
+                            $scope.productCatalog[j].products[i].ordernow = false;
+                            break;
+                        }
+                    }
+                }
+
             }
 
         };
