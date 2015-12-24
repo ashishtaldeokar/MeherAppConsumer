@@ -12,6 +12,7 @@ angular.module('starter.controllers')
             $scope.order = response.data;
             console.log($scope.status);
             $scope.setResopnse();
+            $scope.setDateDiff();
 
         }, function errorCallback(response) {
             console.log(response);
@@ -28,10 +29,18 @@ angular.module('starter.controllers')
 
             }
         }
-        
+        $scope.setDateDiff= function(){
+            var dateNow = new Date(Date.now());
+            console.log(dateNow);
+            var dateCreated = new Date($scope.order.created);
+            console.log(dateCreated);
+            $scope.timeDiff=Math.ceil(new Date(dateNow.getTime() - dateCreated.getTime())/ (1000 * 3600 ));
+            console.log($scope.timeDiff);
+        }
 
-        $scope.commentData=function(){
-            $scope.order.feedback = $scope.feedbackData;
+
+        $scope.commentData=function(comment){
+            $scope.order.feedback.comments = comment;
             console.log($scope.order);
             console.log($scope.feedbackData);
         };
@@ -46,7 +55,7 @@ angular.module('starter.controllers')
             });
             promptPopup.then(function(res) {
                 if(res) {
-                    $scope.commentData();
+                    $scope.commentData(res);
                     $scope.makePopup();
 
                 } else {
@@ -120,7 +129,7 @@ angular.module('starter.controllers')
             $scope.onTime=index;
             console.log($scope.onTime);
             $scope.$apply();
-            $scope.feedbackData.onTime = $scope.onTime;
+            $scope.order.onTime = $scope.onTime;
         }
         $scope.productQualityButton = function(index){
 
@@ -128,7 +137,7 @@ angular.module('starter.controllers')
             $scope.productQuality = index;
             console.log($scope.productQuality);
             $scope.$apply();
-            $scope.feedbackData.quality = $scope.productQuality;
+            $scope.order.quality = $scope.productQuality;
         }
 
     });

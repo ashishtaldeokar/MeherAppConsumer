@@ -10,7 +10,8 @@ var MeherUser ={};
 var MeherMobile = null;
 var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','ngCordova','greatCircles','ion-google-place','ti-segmented-control','jett.ionic.filter.bar','ionic-pullup'])
 
-    .run(function($ionicPlatform,$state) {
+
+    .run(function($ionicPlatform,$state,$cordovaSQLite) {
       $ionicPlatform.ready(function() {
         // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
         // for form inputs)
@@ -22,7 +23,7 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
           StatusBar.styleDefault();
         }
         document.addEventListener("resume", function() {
-          if($state.current.name == "app.storelist")
+          if($state.current.name == "app.storelist" || $state.current.name == "app.postorder")
           {
             $state.go($state.current, {}, {reload: true});
           }
@@ -32,6 +33,7 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
         $cordovaSQLite.execute(db, "CREATE TABLE IF NOT EXISTS Meher_user (deviceId text, mobile integer,addLine1 text,addLine2 text)");
       });
     })
+
 
 
     .config(function($stateProvider, $urlRouterProvider,$ionicConfigProvider,$ionicFilterBarConfigProvider) {

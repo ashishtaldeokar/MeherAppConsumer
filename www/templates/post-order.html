@@ -51,8 +51,9 @@
       </div>
 
       <div class="row item item-divider">
-        <span class="col text-center">Order FeedBack</span>
+        <span class="col text-center">Order FeedBack {{timeDiff}} minutes</span>
       </div>
+      <div class="backdrop visible active" style="top:50%; height: 50%" ng-if='timeDiff < 30'></div>
       <form>
         <div class="list">
           <!--  <label class="item item-toggle">
@@ -77,7 +78,7 @@
           <!--</input>-->
           <div class="row item">
             <div>
-              <span class="input-label">Timely Delivery?</span>
+              <span class="input-label">Delivery?</span>
             </div>
             <div class="col">
               <ti-segmented-control on-select="timelyDeliveryButton($index)" >
@@ -100,7 +101,7 @@
           <!--</input>-->
           <div class="row item">
             <div>
-              <span class="input-label" ng-model="productQuality">Product Quality</span>
+              <span class="input-label" ng-model="productQuality">Quality</span>
             </div>
             <div class="col col-70">
               <ti-segmented-control on-select="productQualityButton($index)" >

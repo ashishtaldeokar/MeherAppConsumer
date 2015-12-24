@@ -212,7 +212,7 @@ angular.module('starter.controllers')
           return false;
         }
       };
-
+      var searchOn = false;
       var once = true;
       $scope.loadMoreProducts = function() {
 
@@ -259,6 +259,7 @@ angular.module('starter.controllers')
                  },
 
                 update: function (filteredItems, filterText) {
+                    searchOn = true;
                     console.log("%%%%%%%%%")
                     console.log($scope.productCatalog[$ionicSlideBoxDelegate.selected()].products)
                     if(temp == null)
