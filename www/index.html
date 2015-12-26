@@ -105,19 +105,20 @@
     <span id="cart-badge" class="badge badge-assertive">{{cartList.length}}</span>
     </a>
     </div>
-    <h1 class="title" ion-pull-up-trigger>Tap here</h1>
+    <h1 class="title" ion-pull-up-trigger>Cart</h1>
     <div class="buttons">
-    <a class="button icon-right ion-arrow-right-c button-positive" href="#/app/order" ng-if="currentPath  !== '/app/order'">Order Now</a>
+    <a class="button icon-right ion-arrow-right-c button-positive" href="#/app/order" ng-if="currentPath  !== '/app/order' && currentPath  !== '/app/login' ">Order </a>
     </div>
     <div class="buttons pull-right">
-    <button class="button icon-right ion-arrow-right-c button-balanced" ng-click="composeSMS()" ng-if="currentPath  === '/app/order'">Place Order</button>
+    <!--<button class="button icon-right ion-arrow-right-c button-balanced" ng-click="retriveLocal()" ng-if="currentPath  === '/app/order'">Place Order</button>-->
     </div>
     </ion-pull-up-bar>
     <ion-pull-up-content scroll="false">
       <div class="list card">
         <div class="item item-divider">Current Order</div>
         <div class="item item-body">
-          <div class="row" ng-repeat="cartItem in cartList">
+          <div class="row" ng-repeat="cartItem in cartList track by $index">
+
             <div class="col col-40">
               <span>{{cartItem.name}}</span>
             </div>
@@ -128,12 +129,13 @@
                 <i class="icon positive ion-ios-plus-outline" ng-click="increaseQuantity(cartItem)"></i>
               </a>
             </div>
-            <div class="col col-20">{{cartItem.price}}</div>
+            <div class="col col-20 text-center">{{cartItem.price}}<br><span style="display: block;color: #aaa;font-size: 14px;">Rs</span></div>
+
           </div>
 
           <div class="row" id="order-header">
             <div class="col">
-              <span class="price-text">*Estimate price undisclosed to store</span>
+              <span class="price-text"></span>
             </div>
             <div class="col col-30 text-right">
               <b>Total:</b> {{cartTotal | number:0}}

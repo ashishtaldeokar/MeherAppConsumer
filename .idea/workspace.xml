@@ -2,14 +2,182 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="426e2542-a2aa-4227-86ad-b10984bb7a51" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Meher-release-unsigned.apk" afterPath="$PROJECT_DIR$/Meher-release-unsigned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Meher.apk" afterPath="$PROJECT_DIR$/Meher.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/cart.png" afterPath="$PROJECT_DIR$/www/img/cart.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/clothes.png" afterPath="$PROJECT_DIR$/www/img/clothes.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/electronic.png" afterPath="$PROJECT_DIR$/www/img/electronic.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/fruits.png" afterPath="$PROJECT_DIR$/www/img/fruits.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/grocery.jpg" afterPath="$PROJECT_DIR$/www/img/grocery.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/pharmacy.png" afterPath="$PROJECT_DIR$/www/img/pharmacy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/resturant.png" afterPath="$PROJECT_DIR$/www/img/resturant.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/www/lib/angular/angular.min.js.gzip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.eot" afterPath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.ttf" afterPath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.woff" afterPath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.woff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ionicons.min.css" afterPath="$PROJECT_DIR$/www/css/ionicons.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers.js" afterPath="$PROJECT_DIR$/www/js/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/categoriesCtrl.js" afterPath="$PROJECT_DIR$/www/js/controllers/categoriesCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/contactCtrl.js" afterPath="$PROJECT_DIR$/www/js/controllers/contactCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/loginCtrl.js" afterPath="$PROJECT_DIR$/www/js/controllers/loginCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/orderCtrl.js" afterPath="$PROJECT_DIR$/www/js/controllers/orderCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/otpCtrl.js" afterPath="$PROJECT_DIR$/www/js/controllers/otpCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/pastOrder.js" afterPath="$PROJECT_DIR$/www/js/controllers/pastOrder.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/postOrderCtrl.js" afterPath="$PROJECT_DIR$/www/js/controllers/postOrderCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/shareCtrl.js" afterPath="$PROJECT_DIR$/www/js/controllers/shareCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/showCaseCtrl.js" afterPath="$PROJECT_DIR$/www/js/controllers/showCaseCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/storeCtrl.js" afterPath="$PROJECT_DIR$/www/js/controllers/storeCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/storeListCtrl.js" afterPath="$PROJECT_DIR$/www/js/controllers/storeListCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/factory/cart-data.js" afterPath="$PROJECT_DIR$/www/js/factory/cart-data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/factory/store-data.js" afterPath="$PROJECT_DIR$/www/js/factory/store-data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/helpers/greatCircle.js" afterPath="$PROJECT_DIR$/www/js/helpers/greatCircle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/services/storeService.js" afterPath="$PROJECT_DIR$/www/js/services/storeService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-animate/.bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-animate/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-animate/README.md" afterPath="$PROJECT_DIR$/www/lib/angular-animate/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.js" afterPath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.min.js" afterPath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.min.js.map" afterPath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-animate/bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-animate/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-animate/package.json" afterPath="$PROJECT_DIR$/www/lib/angular-animate/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-sanitize/.bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-sanitize/README.md" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-sanitize/angular-sanitize.js" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/angular-sanitize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-sanitize/angular-sanitize.min.js" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/angular-sanitize.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-sanitize/angular-sanitize.min.js.map" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/angular-sanitize.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-sanitize/bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-sanitize/package.json" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/.bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/CHANGELOG.md" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/LICENSE" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/README.md" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/api/angular-ui-router.d.ts" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/api/angular-ui-router.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/release/angular-ui-router.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/release/angular-ui-router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/release/angular-ui-router.min.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/release/angular-ui-router.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/common.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/resolve.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/resolve.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/state.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/stateDirectives.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/stateDirectives.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/stateFilters.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/stateFilters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/templateFactory.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/templateFactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/urlMatcherFactory.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/urlMatcherFactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/urlRouter.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/urlRouter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/view.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/viewDirective.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/viewDirective.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/viewScroll.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/viewScroll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/.bower.json" afterPath="$PROJECT_DIR$/www/lib/angular/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/README.md" afterPath="$PROJECT_DIR$/www/lib/angular/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/angular-csp.css" afterPath="$PROJECT_DIR$/www/lib/angular/angular-csp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/angular.js" afterPath="$PROJECT_DIR$/www/lib/angular/angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/angular.min.js" afterPath="$PROJECT_DIR$/www/lib/angular/angular.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/www/lib/angular/angular.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/bower.json" afterPath="$PROJECT_DIR$/www/lib/angular/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/package.json" afterPath="$PROJECT_DIR$/www/lib/angular/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ion-google-place/.bower.json" afterPath="$PROJECT_DIR$/www/lib/ion-google-place/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ion-google-place/LICENSE" afterPath="$PROJECT_DIR$/www/lib/ion-google-place/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ion-google-place/README.md" afterPath="$PROJECT_DIR$/www/lib/ion-google-place/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ion-google-place/bower.json" afterPath="$PROJECT_DIR$/www/lib/ion-google-place/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ion-google-place/ion-google-place.css" afterPath="$PROJECT_DIR$/www/lib/ion-google-place/ion-google-place.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ion-google-place/ion-google-place.js" afterPath="$PROJECT_DIR$/www/lib/ion-google-place/ion-google-place.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/.bower.json" afterPath="$PROJECT_DIR$/www/lib/ionic/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/README.md" afterPath="$PROJECT_DIR$/www/lib/ionic/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/bower.json" afterPath="$PROJECT_DIR$/www/lib/ionic/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/css/ionic.css" afterPath="$PROJECT_DIR$/www/lib/ionic/css/ionic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/css/ionic.min.css" afterPath="$PROJECT_DIR$/www/lib/ionic/css/ionic.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.svg" afterPath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.js" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.min.js" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.js" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.min.js" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.js" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.min.js" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_action-sheet.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_action-sheet.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_animations.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_animations.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_backdrop.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_backdrop.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_badge.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_badge.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_bar.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_bar.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_button-bar.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_button-bar.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_button.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_button.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_checkbox.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_checkbox.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_form.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_form.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_grid.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_grid.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_items.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_items.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_list.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_list.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_loaders.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_loaders.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_loading.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_loading.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_menu.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_menu.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_mixins.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_modal.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_modal.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_platform.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_platform.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_popover.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_popover.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_popup.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_popup.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_progress.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_progress.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_radio.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_radio.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_range.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_range.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_refresher.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_refresher.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_scaffolding.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_scaffolding.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_select.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_select.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_slide-box.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_slide-box.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_spinner.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_spinner.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_split-pane.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_split-pane.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_tabs.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_tabs.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_toggle.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_toggle.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_transitions.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_transitions.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_type.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_type.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_util.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_util.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_variables.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionic.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/ionic.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/matchmedia/.bower.json" afterPath="$PROJECT_DIR$/www/lib/matchmedia/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/matchmedia/LICENSE.txt" afterPath="$PROJECT_DIR$/www/lib/matchmedia/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/matchmedia/README.md" afterPath="$PROJECT_DIR$/www/lib/matchmedia/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/matchmedia/bower.json" afterPath="$PROJECT_DIR$/www/lib/matchmedia/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/matchmedia/matchMedia.addListener.js" afterPath="$PROJECT_DIR$/www/lib/matchmedia/matchMedia.addListener.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/matchmedia/matchMedia.js" afterPath="$PROJECT_DIR$/www/lib/matchmedia/matchMedia.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/matchmedia/test/body.html" afterPath="$PROJECT_DIR$/www/lib/matchmedia/test/body.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/matchmedia/test/head.html" afterPath="$PROJECT_DIR$/www/lib/matchmedia/test/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/matchmedia/test/iframe_body.html" afterPath="$PROJECT_DIR$/www/lib/matchmedia/test/iframe_body.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/matchmedia/test/iframe_head.html" afterPath="$PROJECT_DIR$/www/lib/matchmedia/test/iframe_head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/matchmedia/test/lib/JSLitmus.js" afterPath="$PROJECT_DIR$/www/lib/matchmedia/test/lib/JSLitmus.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngCordova/.bower.json" afterPath="$PROJECT_DIR$/www/lib/ngCordova/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngCordova/CHANGELOG.md" afterPath="$PROJECT_DIR$/www/lib/ngCordova/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngCordova/LICENSE" afterPath="$PROJECT_DIR$/www/lib/ngCordova/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngCordova/README.md" afterPath="$PROJECT_DIR$/www/lib/ngCordova/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngCordova/bower.json" afterPath="$PROJECT_DIR$/www/lib/ngCordova/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngCordova/dist/ng-cordova-mocks.js" afterPath="$PROJECT_DIR$/www/lib/ngCordova/dist/ng-cordova-mocks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngCordova/dist/ng-cordova-mocks.min.js" afterPath="$PROJECT_DIR$/www/lib/ngCordova/dist/ng-cordova-mocks.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngCordova/dist/ng-cordova.js" afterPath="$PROJECT_DIR$/www/lib/ngCordova/dist/ng-cordova.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngCordova/dist/ng-cordova.min.js" afterPath="$PROJECT_DIR$/www/lib/ngCordova/dist/ng-cordova.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngCordova/package.json" afterPath="$PROJECT_DIR$/www/lib/ngCordova/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngSticky/.bower.json" afterPath="$PROJECT_DIR$/www/lib/ngSticky/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngSticky/LICENSE" afterPath="$PROJECT_DIR$/www/lib/ngSticky/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngSticky/README.md" afterPath="$PROJECT_DIR$/www/lib/ngSticky/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngSticky/bower.json" afterPath="$PROJECT_DIR$/www/lib/ngSticky/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngSticky/dist/sticky.min.js" afterPath="$PROJECT_DIR$/www/lib/ngSticky/dist/sticky.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngSticky/examples/demo.html" afterPath="$PROJECT_DIR$/www/lib/ngSticky/examples/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngSticky/lib/sticky.js" afterPath="$PROJECT_DIR$/www/lib/ngSticky/lib/sticky.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngSticky/package.json" afterPath="$PROJECT_DIR$/www/lib/ngSticky/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/partial/location-search.html" afterPath="$PROJECT_DIR$/www/partial/location-search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/about.html" afterPath="$PROJECT_DIR$/www/templates/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/categories.html" afterPath="$PROJECT_DIR$/www/templates/categories.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/contact.html" afterPath="$PROJECT_DIR$/www/templates/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/login.html" afterPath="$PROJECT_DIR$/www/templates/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/menu.html" afterPath="$PROJECT_DIR$/www/templates/menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/order.html" afterPath="$PROJECT_DIR$/www/templates/order.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/otp.html" afterPath="$PROJECT_DIR$/www/templates/otp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/pastorder.html" afterPath="$PROJECT_DIR$/www/templates/pastorder.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/post-order.html" afterPath="$PROJECT_DIR$/www/templates/post-order.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/register.html" afterPath="$PROJECT_DIR$/www/templates/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/share.html" afterPath="$PROJECT_DIR$/www/templates/share.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/showCase.html" afterPath="$PROJECT_DIR$/www/templates/showCase.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/store.html" afterPath="$PROJECT_DIR$/www/templates/store.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/storelist.html" afterPath="$PROJECT_DIR$/www/templates/storelist.html" />
     </list>
     <ignored path="meher.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,9 +201,10 @@
       <file leaf-file-name="store.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/store.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375">
-              <caret line="96" column="42" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
               <folding>
+                <element signature="n#style#0;n#i#0;n#span#0;n#div#2;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#div#1;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#label#0;n#div#1;n#div#0;n#div#1;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#div#3;n#div#0;n#div#1;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
@@ -49,17 +218,7 @@
         <entry file="file://$PROJECT_DIR$/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.039604">
-              <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+              <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -78,9 +237,34 @@
       <file leaf-file-name="postOrderCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/controllers/postOrderCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.193548">
+            <state vertical-scroll-proportion="0.0">
               <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/templates/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3960396">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orderCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/controllers/orderCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="318" column="46" selection-start-line="318" selection-start-column="46" selection-end-line="318" selection-end-column="46" />
+              <folding>
+                <marker date="1451049007000" expanded="true" signature="6408:6527" placeholder="{...}" />
+                <marker date="1451049007000" expanded="true" signature="6457:6508" placeholder="{...}" />
+                <marker date="1451049007000" expanded="true" signature="6525:6527" placeholder="{...}" />
+                <marker date="1451049007000" expanded="true" signature="10177:10427" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,8 +272,8 @@
       <file leaf-file-name="pastorder.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/pastorder.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.25">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#span#1;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#2;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
@@ -102,8 +286,10 @@
         <entry file="file://$PROJECT_DIR$/www/js/controllers/pastOrder.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-              <folding />
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+              <folding>
+                <marker date="1451049007000" expanded="true" signature="385:883" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,8 +297,8 @@
       <file leaf-file-name="post-order.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/post-order.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.125">
-              <caret line="55" column="89" selection-start-line="55" selection-start-column="89" selection-end-line="55" selection-end-column="89" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="56" column="89" selection-start-line="56" selection-start-column="89" selection-end-line="56" selection-end-column="89" />
               <folding>
                 <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#3;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
@@ -181,7 +367,6 @@
         <option value="$PROJECT_DIR$/www/templates/share.html" />
         <option value="$PROJECT_DIR$/www/js/controllers/shareCtrl.js" />
         <option value="$PROJECT_DIR$/www/templates/menu.html" />
-        <option value="$PROJECT_DIR$/www/templates/about.html" />
         <option value="$PROJECT_DIR$/www/js/controllers/categoriesCtrl.js" />
         <option value="$PROJECT_DIR$/www/lib/ionic-filter-bar/dist/ionic.filter.bar.css" />
         <option value="$PROJECT_DIR$/www/lib/ionic-filter-bar/dist/ionic.filter.bar.js" />
@@ -195,6 +380,7 @@
         <option value="$PROJECT_DIR$/www/templates/store.html" />
         <option value="$PROJECT_DIR$/www/js/app.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/www/templates/about.html" />
       </list>
     </option>
   </component>
@@ -239,7 +425,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -290,103 +476,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeherAppConsumer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeherAppConsumer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeherAppConsumer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeherAppConsumer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeherAppConsumer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Meher Web/blue-app-free-one-page-responsive-html5-parallax-business-app-landing-page" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="editorconfig.notification" value="Applied .editorconfig settings" />
@@ -492,7 +588,13 @@
       <option name="project" value="LOCAL" />
       <updated>1450879582006</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test">
+      <created>1450953124533</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1450953124533</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -509,26 +611,26 @@
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2488336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2488336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40030912" sideWeight="0.5031104" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34075344" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44822258" sideWeight="0.4968896" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44822258" sideWeight="0.4968896" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34075344" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -569,7 +671,8 @@
     <MESSAGE value="postOrderCtrl --&gt;  $http PUT not working" />
     <MESSAGE value="message" />
     <MESSAGE value="not stable but better" />
-    <option name="LAST_COMMIT_MESSAGE" value="not stable but better" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -578,6 +681,48 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/postOrderCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/pastorder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#span#1;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/pastOrder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding>
+            <marker date="1451049007000" expanded="true" signature="385:883" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/post-order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="89" selection-start-line="55" selection-start-column="89" selection-end-line="55" selection-end-column="89" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#3;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#label#0;n#div#0;n#form#0;n#div#3;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#label#0;n#div#0;n#form#0;n#div#3;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/services/storeService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -635,7 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="127" column="3" selection-start-line="127" selection-start-column="3" selection-end-line="127" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -648,7 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.29411766">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,39 +807,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/CordovaLib/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.7916665">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/CordovaLib/project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75">
-          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/controllers/otpCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46478873">
           <caret line="11" column="40" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,7 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.027075812">
           <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -719,7 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -727,15 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="191" column="7" selection-start-line="191" selection-start-column="7" selection-end-line="191" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/orderCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.870968">
-          <caret line="305" column="46" selection-start-line="305" selection-start-column="46" selection-end-line="305" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -743,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.625">
           <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -751,7 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.74492097">
           <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,7 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -767,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07853403">
           <caret line="2" column="44" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -775,15 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27088037">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,7 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.25">
           <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -799,7 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.958333">
           <caret line="359" column="16" selection-start-line="359" selection-start-column="7" selection-end-line="359" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -807,7 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -815,7 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16059957">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -823,7 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.375">
           <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -831,10 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0">
           <caret line="121" column="30" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#ion-pull-up-handle#0;n#ion-pull-up-footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#ion-pull-up-bar#0;n#ion-pull-up-footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -842,7 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="48" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -855,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.875">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -863,7 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -871,7 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.387097">
           <caret line="261" column="36" selection-start-line="261" selection-start-column="36" selection-end-line="261" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -879,22 +956,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.64668095">
           <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/postOrderCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.193548">
-          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/post-order.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125">
-          <caret line="55" column="89" selection-start-line="55" selection-start-column="89" selection-end-line="55" selection-end-column="89" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="89" selection-start-line="56" selection-start-column="89" selection-end-line="56" selection-end-column="89" />
           <folding>
             <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#3;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
@@ -906,8 +974,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/pastorder.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#span#1;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#2;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
@@ -918,21 +986,46 @@
     <entry file="file://$PROJECT_DIR$/www/js/controllers/pastOrder.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <marker date="1451049007000" expanded="true" signature="385:883" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/store.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375">
-          <caret line="96" column="42" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
           <folding>
+            <element signature="n#style#0;n#i#0;n#span#0;n#div#2;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#div#1;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#label#0;n#div#1;n#div#0;n#div#1;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#div#3;n#div#0;n#div#1;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ion-scroll#0;n#ion-slide#0;n#ion-slide-box#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/lib/ngCordova/dist/ng-cordova.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3164983">
+          <caret line="8" column="15665" selection-start-line="8" selection-start-column="15665" selection-end-line="8" selection-end-column="15665" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.82838285">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -944,26 +1037,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/ngCordova/dist/ng-cordova.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3164983">
-          <caret line="8" column="15665" selection-start-line="8" selection-start-column="15665" selection-end-line="8" selection-end-column="15665" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/orderCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="46" />
+          <caret line="318" column="46" selection-start-line="318" selection-start-column="46" selection-end-line="318" selection-end-column="46" />
+          <folding>
+            <marker date="1451049007000" expanded="true" signature="6408:6527" placeholder="{...}" />
+            <marker date="1451049007000" expanded="true" signature="6457:6508" placeholder="{...}" />
+            <marker date="1451049007000" expanded="true" signature="6525:6527" placeholder="{...}" />
+            <marker date="1451049007000" expanded="true" signature="10177:10427" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/postOrderCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/www/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.039604">
-          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.3960396">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding />
         </state>
       </provider>

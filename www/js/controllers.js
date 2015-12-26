@@ -1,6 +1,7 @@
 angular.module('starter.controllers', [])
 
-    .controller('LoadCtrl', function($scope, $cordovaPush, $cordovaDialogs, $cordovaMedia, $cordovaToast, ionPlatform, $http,CartData,$location,$cordovaDevice,$state,$rootScope,$ionicPopup) {$scope.notifications = [];
+    .controller('LoadCtrl', function($scope, $cordovaPush, $cordovaDialogs, $cordovaMedia, $cordovaToast, ionPlatform, $http,CartData,$location,$cordovaDevice,$state,$rootScope,$ionicPopup,$ionicHistory) {
+        $scope.notifications = [];
       $scope.cartList=CartData.getCart();
       $scope.grandTotal;
         $scope.requestDelete = false;
@@ -25,9 +26,11 @@ angular.module('starter.controllers', [])
             confirmPopup.then(function(res) {
 
                 if (res) {
+
                     var index = $scope.cartList.indexOf(productItem);
                     if (index != -1) {
                         $scope.cartList.splice(index, 1);
+
                         //CartData.removeCart($scope.productItem);
                     }
 
@@ -134,10 +137,59 @@ angular.module('starter.controllers', [])
           $scope.requestDelete = !$scope.requestDelete;
         $rootScope.$emit("CallDelete", {});
       }
+        var alertDone = true;
 
-      $scope.$on('$locationChangeSuccess', function(event) {
-        console.log($location.path())
-        $scope.currentPath = $location.path();
+        $scope.$on('$locationChangeSuccess', function(event) {
+            $scope.currentPath = $location.path();
+
+        });
+
+
+        $rootScope.$on('$stateChangeStart', function (ev, to, toParams, from, fromParams) {
+            console.log( $location.path());
+            console.log(ev);
+            console.log(to);
+            console.log(toParams);
+            console.log(from);
+            console.log(fromParams);
+            console.log($scope.currentPath)
+
+          if($scope.cartList.length && (from.name=='app.store')){
+              //$ionicHistory.goBack();
+              ev.defaultPrevented = true;
+              console.log(ev);
+              console.log($scope.currentPath)
+              event.preventDefault();
+              $ionicPopup.confirm({
+                      title:"Cart not empty",
+                      template:"Do you want to discard your cart?",
+                      cancelText: 'Cancel', // String (default: 'Cancel'). The text of the Cancel button.
+                      cancelType: '', // String (default: 'button-default'). The type of the Cancel button.
+                      okText: 'Discard', // String (default: 'OK'). The text of the OK button.
+                      okType: 'button-assertive', // String (default: 'button-positive'). The type of the OK button.
+
+
+                  })
+                  .then(function(res){
+                      if(res){
+                          var currentCart= CartData.getCart();
+                          console.log(currentCart.length);
+                          for(item=0;item<currentCart.length;item++){
+                              $scope.$broadcast("unTick",currentCart[item]);
+                          }
+
+                          CartData.emptyCart();
+
+                          $location.url("app/categories/"+toParams);
+
+                      }
+                      else{
+
+                      }
+                  })
+          }
+
+
       });
 
       $scope.composeSMS = function() {

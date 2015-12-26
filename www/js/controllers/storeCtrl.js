@@ -27,6 +27,16 @@ angular.module('starter.controllers')
         $scope.CallTel = function(tel) {
             window.open('tel:'+tel)
         };
+        $scope.$on("unTick", function(event,productItem)
+
+        {
+            // alert(JSON.stringify(productItem.name));
+            //$scope.checkExisting();
+            console.log("In $on ");
+            $scope.practice(productItem);
+
+
+        })
 
 
         $scope.$on('someEvent', function(event,productItem)
@@ -48,7 +58,7 @@ angular.module('starter.controllers')
             var i;
             for (i = 0; i < existingItems.length; i++) {
                 if ($scope.currentObj.name == existingItems[i].name) {
-                    alert("matched")
+                    //alert("matched")
                     console.log($scope.currentObj);
                     $scope.productCatalog[$ionicSlideBoxDelegate.selected()].products[i].ordernow = false;
                     untickDone = true;
@@ -63,7 +73,7 @@ angular.module('starter.controllers')
                     var i;
                     for (i = 0; i < existingItems.length; i++) {
                         if ($scope.currentObj.name == existingItems[i].name) {
-                            alert("matched")
+                            //alert("matched")
                             console.log($scope.currentObj)
                             $scope.productCatalog[j].products[i].ordernow = false;
                             break;
@@ -73,10 +83,6 @@ angular.module('starter.controllers')
 
             }
 
-        };
-
-        $scope.untick = function(obj) {
-            alert("lets utick first")
         };
 
         $scope.CallTel = function(tel) {
@@ -125,6 +131,20 @@ angular.module('starter.controllers')
           productItem.price = productItem.price - (productItem.price /productItem.quantity);
           productItem.quantity = productItem.quantity - 1;
           $scope.updateCart(productItem)
+        }
+        else {
+          for (var i in $scope.cartItems) {
+            if ($scope.cartItems [i] === productItem) {
+              //$scope.cartItems.splice(i, 1);
+                console.log(productItem);
+                $scope.addToCart(productItem,false,i);
+                console.log(productItem);
+            }
+          }
+          CartData.setCart($scope.cartItems);
+          productItem.ordernow = false;
+
+          $scope.updateCart(productItem);
         }
       };
 
@@ -226,7 +246,7 @@ angular.module('starter.controllers')
             if (response.data.length >0 ){
               angular.forEach(response.data, function (value, key) {
                 value.ordernow = false;
-                  console.log(value);
+
                 $scope.productCatalog[index].products.push(value);
               });
               $scope.productCatalog[index].pageNumber++;

@@ -7,7 +7,10 @@
   "dependencies": {
     "ion-google-place": "~0.0.1",
     "ngSticky": "~1.7.11",
-    "ti-segmented-control": "~0.0.2",
-    "ionic-pullup": "~1.0.3"
+    "ion-affix": "~1.0.1",
+    "ionic-pullup": "~1.0.3",
+    "ion-sticky": "~1.0.4",
+    "ionic-filter-bar": "~1.1.1",
+    "ti-segmented-control": "~0.0.2"
   }
 }
